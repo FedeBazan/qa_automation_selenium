@@ -94,7 +94,7 @@ public class Test {
     @org.testng.annotations.Test
     public void checkSuccessfullPay() throws InterruptedException {
         completeValuesPayment();
-        String expectedMsg = "\uE876Your order is confirmeed ";
+        String expectedMsg = "\uE876YOUR ORDER IS CONFIRMED";
         OrderConfirmation orderConfirmation = new OrderConfirmation(driver);
         org.testng.Assert.assertEquals(orderConfirmation.checkBuyMsg(),expectedMsg);
     }
