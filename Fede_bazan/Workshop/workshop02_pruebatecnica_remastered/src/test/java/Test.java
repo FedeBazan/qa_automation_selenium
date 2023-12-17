@@ -90,6 +90,7 @@ public class Test {
         order.completePayment();
     }
 
+    //confirmar pago
     @org.testng.annotations.Test
     public void checkSuccessfullPay() throws InterruptedException {
         completeValuesPayment();
